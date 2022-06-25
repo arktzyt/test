@@ -1,9 +1,3 @@
-repeat wait(0.1) until game:IsLoaded()
-
-getgenv().Star = "⭐"
-getgenv().Danger = "⚠️"
-getgenv().ExploitSpecific = "📜"
-
 -- Script temporary variables
 local playerstatsevent = game:GetService("ReplicatedStorage").Events.RetrievePlayerStats
 local statstable = playerstatsevent:InvokeServer()
